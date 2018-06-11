@@ -1,0 +1,36 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "axios-mock-adapter": "^1.15.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^23.1.0",
+    "jest-localstorage-mock": "^2.2.0",
+    "react-redux": "^5.0.7",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.1",
+    "redux-saga": "^0.16.0"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "setupFiles": [
+      "jest-localstorage-mock"
+    ],
+    "testRegex": "(/tests/.*(spec))\\.js?$"
+  }
+}

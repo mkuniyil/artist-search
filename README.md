@@ -16,6 +16,10 @@ I used 'create-react-app' for development
 
 > Unit testing : Jest
 
+# Getting Started
+
+Install the modules with: `npm install`
+
 ## Run the Application
 
 use `npm start`
@@ -26,8 +30,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 run `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](#running-tests) for more information.
+Coverage reports:
+
+```<workspace>/coverage/lcov-report/index.html``` - coverage report location
+
 
 ### `npm run build`
 
@@ -35,4 +41,3 @@ Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.<br>
-# artist-search
